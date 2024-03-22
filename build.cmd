@@ -1,5 +1,15 @@
 bcp ^
     boost/asio.hpp ^
+    boost/bind.hpp ^
+    boost/bind/bind.hpp ^
+    boost/bind/bind_cc.hpp ^
+    boost/bind/bind_mf2_cc.hpp ^
+    boost/bind/bind_mf_cc.hpp ^
+    boost/bind/detail/is_same.hpp ^
+    boost/bind/detail/result_traits.hpp ^
+    boost/bind/placeholders.hpp ^
+    boost/bind/std_placeholders.hpp ^
+    boost/bind/storage.hpp ^
     boost/container/flat_map.hpp ^
     boost/container/flat_set.hpp ^
     boost/container/small_vector.hpp ^
@@ -15,6 +25,8 @@ bcp ^
     boost/variant.hpp ^
     boost/archive/binary_iarchive.hpp ^
     boost/archive/binary_oarchive.hpp ^
+    boost/range/algorithm/copy.hpp ^
+    boost/range/algorithm/fill.hpp ^
     boost/serialization/array.hpp ^
     boost/serialization/bitset.hpp ^
     boost/serialization/binary_object.hpp ^
@@ -34,4 +46,5 @@ bcp ^
     boost/iostreams/stream.hpp ^
     boost/iostreams/device/file_descriptor.hpp ^
     boost/url.hpp ^
+    boost/visit_each.hpp ^
     --boost="%1" .
