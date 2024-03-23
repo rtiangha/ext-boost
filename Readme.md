@@ -13,6 +13,7 @@ To update the Boost version (or to add a new library) follow these steps:
     ```
     .\bootstrap.bat
     .\b2 tools\bcp
+    .\b2 headers
     ```
 
   - Store the boost directory in a variable for later use: `$boost_dir = $pwd`.

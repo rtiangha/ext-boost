@@ -17,10 +17,13 @@ bcp ^
     boost/circular_buffer.hpp ^
     boost/crc.hpp ^
     boost/icl/interval_map.hpp ^
+    boost/integer_traits.hpp ^
     boost/locale/encoding_utf.hpp ^
     boost/optional.hpp ^
     boost/algorithm/string/replace.hpp  ^
     boost/process/async_pipe.hpp ^
+    boost/regex.hpp ^
+    boost/regex/config.hpp ^
     boost/stacktrace.hpp ^
     boost/variant.hpp ^
     boost/archive/binary_iarchive.hpp ^
@@ -30,6 +33,7 @@ bcp ^
     boost/serialization/array.hpp ^
     boost/serialization/bitset.hpp ^
     boost/serialization/binary_object.hpp ^
+    boost/serialization/config.hpp ^
     boost/serialization/deque.hpp ^
     boost/serialization/export.hpp ^
     boost/serialization/list.hpp ^
