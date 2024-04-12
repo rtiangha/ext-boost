@@ -1,7 +1,7 @@
 Boost libraries - trimmed down for Citra
 ========================================
 
-This is a subset of Boost v1.85.0.rc2 generated using the bcp tool. To get a list of boost modules guaranteed to exist, check the build script.
+This is a subset of Boost v1.85.0.rc3 generated using the bcp tool. To get a list of boost modules guaranteed to exist, check the build script.
 
 Updating this repo (on Windows)
 ===============================
