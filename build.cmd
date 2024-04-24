@@ -46,6 +46,7 @@ bcp ^
     boost/serialization/unordered_set.hpp ^
     boost/serialization/shared_ptr.hpp ^
     boost/serialization/unique_ptr.hpp ^
+    boost/serialization/variant.hpp ^
     boost/serialization/weak_ptr.hpp ^
     boost/iostreams/stream.hpp ^
     boost/iostreams/device/file_descriptor.hpp ^
