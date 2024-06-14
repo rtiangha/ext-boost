@@ -1,4 +1,4 @@
-bcp ^
+bcp.exe ^
     boost/asio.hpp ^
     boost/bind.hpp ^
     boost/bind/bind.hpp ^
@@ -14,9 +14,12 @@ bcp ^
     boost/container/flat_set.hpp ^
     boost/container/small_vector.hpp ^
     boost/container/static_vector.hpp ^
+    boost/context/detail/fcontext.hpp ^
     boost/circular_buffer.hpp ^
     boost/crc.hpp ^
     boost/icl/interval_map.hpp ^
+    boost/icl/separate_interval_map.hpp ^
+    boost/icl/separate_interval_set.hpp ^
     boost/integer_traits.hpp ^
     boost/locale/encoding_utf.hpp ^
     boost/optional.hpp ^
@@ -30,6 +33,9 @@ bcp ^
     boost/archive/binary_oarchive.hpp ^
     boost/range/algorithm/copy.hpp ^
     boost/range/algorithm/fill.hpp ^
+    boost/range/algorithm/string/replace.hpp ^
+    boost/range/algorithm/string.hpp ^
+    boost/range/algorithm_ext/erase.hpp ^
     boost/serialization/array.hpp ^
     boost/serialization/bitset.hpp ^
     boost/serialization/binary_object.hpp ^
@@ -51,4 +57,16 @@ bcp ^
     boost/iostreams/device/file_descriptor.hpp ^
     boost/url.hpp ^
     boost/visit_each.hpp ^
+    boost/pool/pool.hpp ^
+    boost/pool/pool_alloc.hpp ^
+    boost/pool/poolfwd.hpp ^
+    boost/heap/fibonacci_heap.hpp ^
+    boost/intrusive/rbtree.hpp ^
+    boost/intrusive/list.hpp ^
+    boost/intrusive/set.hpp ^
+    boost/functional/hash.hpp ^
+    boost/icl/interval_set.hpp ^
+    boost/icl/interval_base_set.hpp ^
+    boost/icl/interval.hpp ^
+    boost/icl/split_interval_map.hpp ^
     --boost="%1" .
