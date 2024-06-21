@@ -38,17 +38,17 @@ namespace {
 #pragma GCC diagnostic ignored "-Wnon-virtual-dtor"
 #endif
 
-class codecvt_error_cat final :
+class codecvt_error_cat BOOST_FINAL :
     public boost::system::error_category
 {
 public:
     // clang up to version 3.8 requires a user-defined default constructor in order to be able to declare a static constant of the error category.
-    BOOST_SYSTEM_CONSTEXPR codecvt_error_cat() noexcept {}
-    const char* name() const noexcept override;
-    std::string message(int ev) const override;
+    BOOST_SYSTEM_CONSTEXPR codecvt_error_cat() BOOST_NOEXCEPT {}
+    const char* name() const BOOST_NOEXCEPT BOOST_OVERRIDE;
+    std::string message(int ev) const BOOST_OVERRIDE;
 };
 
-const char* codecvt_error_cat::name() const noexcept
+const char* codecvt_error_cat::name() const BOOST_NOEXCEPT
 {
     return "codecvt";
 }
@@ -83,7 +83,7 @@ std::string codecvt_error_cat::message(int ev) const
 
 } // unnamed namespace
 
-BOOST_FILESYSTEM_DECL boost::system::error_category const& codecvt_error_category() noexcept
+BOOST_FILESYSTEM_DECL boost::system::error_category const& codecvt_error_category() BOOST_NOEXCEPT
 {
     static
 #if defined(BOOST_SYSTEM_HAS_CONSTEXPR)

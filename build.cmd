@@ -1,72 +1,29 @@
 bcp.exe ^
-    boost/asio.hpp ^
-    boost/bind.hpp ^
-    boost/bind/bind.hpp ^
-    boost/bind/bind_cc.hpp ^
-    boost/bind/bind_mf2_cc.hpp ^
-    boost/bind/bind_mf_cc.hpp ^
-    boost/bind/detail/is_same.hpp ^
-    boost/bind/detail/result_traits.hpp ^
-    boost/bind/placeholders.hpp ^
-    boost/bind/std_placeholders.hpp ^
-    boost/bind/storage.hpp ^
-    boost/container/flat_map.hpp ^
-    boost/container/flat_set.hpp ^
-    boost/container/small_vector.hpp ^
     boost/container/static_vector.hpp ^
     boost/context/detail/fcontext.hpp ^
-    boost/circular_buffer.hpp ^
-    boost/crc.hpp ^
-    boost/icl/interval_map.hpp ^
-    boost/icl/separate_interval_map.hpp ^
+    boost/icl/interval_set.hpp ^
+    boost/functional/hash.hpp ^
     boost/icl/separate_interval_set.hpp ^
-    boost/integer_traits.hpp ^
-    boost/locale/encoding_utf.hpp ^
-    boost/optional.hpp ^
-    boost/algorithm/string/replace.hpp  ^
-    boost/process/async_pipe.hpp ^
-    boost/regex.hpp ^
-    boost/regex/config.hpp ^
-    boost/stacktrace.hpp ^
-    boost/variant.hpp ^
-    boost/archive/binary_iarchive.hpp ^
-    boost/archive/binary_oarchive.hpp ^
-    boost/range/algorithm/copy.hpp ^
-    boost/range/algorithm/fill.hpp ^
-    boost/range/algorithm/string/replace.hpp ^
-    boost/range/algorithm/string.hpp ^
-    boost/range/algorithm_ext/erase.hpp ^
-    boost/serialization/array.hpp ^
-    boost/serialization/bitset.hpp ^
-    boost/serialization/binary_object.hpp ^
-    boost/serialization/config.hpp ^
-    boost/serialization/deque.hpp ^
-    boost/serialization/export.hpp ^
-    boost/serialization/list.hpp ^
-    boost/serialization/vector.hpp ^
-    boost/serialization/set.hpp ^
-    boost/serialization/map.hpp ^
-    boost/serialization/optional.hpp ^
-    boost/serialization/priority_queue.hpp ^
-    boost/serialization/unordered_map.hpp ^
-    boost/serialization/unordered_set.hpp ^
-    boost/serialization/shared_ptr.hpp ^
-    boost/serialization/unique_ptr.hpp ^
-    boost/serialization/weak_ptr.hpp ^
-    boost/iostreams/stream.hpp ^
-    boost/iostreams/device/file_descriptor.hpp ^
-    boost/url.hpp ^
-    boost/visit_each.hpp ^
+    boost/icl/interval.hpp ^
+    boost/icl/interval_base_set.hpp ^
+    boost/icl/interval_map.hpp ^
+    boost/icl/split_interval_map.hpp ^
     boost/pool/pool.hpp ^
     boost/pool/pool_alloc.hpp ^
     boost/pool/poolfwd.hpp ^
     boost/heap/fibonacci_heap.hpp ^
+    boost/asio.hpp ^
+    boost/process/async_pipe.hpp ^
+    boost/algorithm/string.hpp ^
+    boost/container/flat_map.hpp ^
     boost/intrusive/rbtree.hpp ^
+    boost/range/algorithm_ext/erase.hpp ^
+    boost/container_hash/hash.hpp ^
+    boost/crc.hpp ^
+    boost/container/small_vector.hpp ^
+    boost/algorithm/string/replace.hpp ^
+    boost/container/static_vector.hpp ^
     boost/intrusive/list.hpp ^
     boost/intrusive/set.hpp ^
-    boost/functional/hash.hpp ^
-    boost/icl/interval_set.hpp ^
-    boost/icl/interval_base_set.hpp ^
-    boost/icl/interval.hpp ^
-    boost/icl/split_interval_map.hpp ^
+    boost/container/flat_set.hpp ^
     --boost="%1" .
