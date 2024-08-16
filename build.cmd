@@ -1,5 +1,7 @@
 bcp.exe ^
     boost/asio.hpp ^
+    boost/asio/async_result.hpp ^
+    boost/asio/co_composed.hpp ^
     boost/bind.hpp ^
     boost/bind/bind.hpp ^
     boost/bind/bind_cc.hpp ^
